@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MainApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="container">
+            <div class="col-lg-5 col-lg-offset-9">
+                <div class="widget">
+                    <span><p>All Applications</p><p>10000</p></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <h1><span ng-bind="message"></span></h1>
+    <ng-view></ng-view>
+</div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-loading-bar/src/loading-bar.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<link rel="stylesheet" href="bower_components/angular-loading-bar/src/loading-bar.css">
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+<script src="app.js"></script>
+<script src="app/controllers/todo_ctrl.js"></script>
+<script src="app/services/todo_svc.js"></script>
+<link rel="stylesheet" href="style.css">
+</body>
+</html>
